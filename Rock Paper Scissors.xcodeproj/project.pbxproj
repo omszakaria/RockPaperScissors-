@@ -20,6 +20,10 @@
 		3F8736941778E260009EBE27 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8736921778E260009EBE27 /* ViewController_iPhone.xib */; };
 		3F8736971778E260009EBE27 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8736951778E260009EBE27 /* ViewController_iPad.xib */; };
 		3F8736A21778F096009EBE27 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F8736A11778F096009EBE27 /* background.jpeg */; };
+		3FE079BD177A2C83003EEFC1 /* rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE079BC177A2C83003EEFC1 /* rock.jpg */; };
+		3FE079BF177A2C90003EEFC1 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE079BE177A2C90003EEFC1 /* paper.png */; };
+		3FE079C1177A2C9B003EEFC1 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE079C0177A2C9B003EEFC1 /* scissors.png */; };
+		3FE079C3177A3EEC003EEFC1 /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE079C2177A3EEC003EEFC1 /* background1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		3F8736931778E260009EBE27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		3F8736961778E260009EBE27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		3F8736A11778F096009EBE27 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpeg; path = ../background.jpeg; sourceTree = "<group>"; };
+		3FE079BC177A2C83003EEFC1 /* rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rock.jpg; sourceTree = "<group>"; };
+		3FE079BE177A2C90003EEFC1 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		3FE079C0177A2C9B003EEFC1 /* scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissors.png; sourceTree = "<group>"; };
+		3FE079C2177A3EEC003EEFC1 /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 		3F87367E1778E260009EBE27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FE079C2177A3EEC003EEFC1 /* background1.jpg */,
+				3FE079C0177A2C9B003EEFC1 /* scissors.png */,
+				3FE079BE177A2C90003EEFC1 /* paper.png */,
+				3FE079BC177A2C83003EEFC1 /* rock.jpg */,
 				3F87367F1778E260009EBE27 /* Rock Paper Scissors-Info.plist */,
 				3F8736A11778F096009EBE27 /* background.jpeg */,
 				3F8736801778E260009EBE27 /* InfoPlist.strings */,
@@ -171,6 +183,10 @@
 				3F8736941778E260009EBE27 /* ViewController_iPhone.xib in Resources */,
 				3F8736971778E260009EBE27 /* ViewController_iPad.xib in Resources */,
 				3F8736A21778F096009EBE27 /* background.jpeg in Resources */,
+				3FE079BD177A2C83003EEFC1 /* rock.jpg in Resources */,
+				3FE079BF177A2C90003EEFC1 /* paper.png in Resources */,
+				3FE079C1177A2C9B003EEFC1 /* scissors.png in Resources */,
+				3FE079C3177A3EEC003EEFC1 /* background1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +332,7 @@
 				3F87369C1778E260009EBE27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

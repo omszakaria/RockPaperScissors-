@@ -10,10 +10,19 @@
 
 @interface ViewController : UIViewController
 {
-     IBOutlet UIImageView* background_img;
-     
+    IBOutlet UIImageView* background_img;
+    IBOutlet UIButton* rockButton;
+    IBOutlet UIButton* paperButton;
+    IBOutlet UIButton* scissorsButton;
+    int playerMove;
+    int aiMove;
+    int winner;
 }
 @property (strong, nonatomic) UIImage* img;
+@property (weak, nonatomic) IBOutlet UILabel *winLabel;
+@property (weak, nonatomic) IBOutlet UILabel *aiChoiceLabel;
 
-
+-(IBAction)getPlayerChoice:(id)sender;
+-(void)getAImove;
+-(void)playRPS; 
 @end
